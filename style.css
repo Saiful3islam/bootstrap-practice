@@ -55,3 +55,49 @@ img{
 .rounded{
     box-shadow: 5px 5px 20px 3px rgb(203, 223, 230);
 }
+.left-img{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0px 0px 5px;
+
+}
+.left-img img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -282px;
+}
+.right-text{
+    width: 60%;
+    padding: 25px;
+}
+.app-item{
+    height: 300px;
+    box-shadow: 4px 5px 30px #6278df ;
+    
+}
+
+
+.app-future-imgs{}
+.app-future-imgs a{
+    position: relative;
+    display: block;
+}
+.app-future-imgs a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #6279df83;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+
+}
+.app-future-imgs:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
