@@ -79,7 +79,10 @@ img{
 }
 
 
-.app-future-imgs{}
+.app-future-imgs img{
+    width: 450px;
+    height: 250px;
+}
 .app-future-imgs a{
     position: relative;
     display: block;
