@@ -4,6 +4,9 @@ body,h1.h2,h3,h4,h5,h6,p{
     font-family: 'Prompt', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+img{
+    max-width: 100%;
+}
 .mogachoda span{
     color: rgb(255, 255, 255);
     background-color: #6278df;
@@ -35,4 +38,20 @@ body,h1.h2,h3,h4,h5,h6,p{
 }
 .saif-menu{
 
+}
+.number-count .h2{
+    font-size: 70px;
+}
+.number-count p{
+    font-size: 20px;
+}
+.about-text-left p{
+    font-size: 20px;
+    line-height: 1.8rem;
+}
+.about-section{
+    background-image: linear-gradient(skyblue, pink);
+}
+.rounded{
+    box-shadow: 5px 5px 20px 3px rgb(203, 223, 230);
 }
