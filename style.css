@@ -66,14 +66,14 @@ img{
     width: auto !important;
     max-width: inherit;
     position: relative;
-    left: -282px;
+    left: -375px;
 }
 .right-text{
     width: 60%;
     padding: 25px;
 }
 .app-item{
-    height: 300px;
+   
     box-shadow: 4px 5px 30px #6278df ;
     
 }
@@ -103,4 +103,77 @@ img{
 .app-future-imgs:hover a::after{
     opacity: 1;
     visibility: visible;
+}
+.pricing-table-section{
+    background-image: linear-gradient(rgb(164, 221, 244), rgb(250, 225, 229));
+}
+.t-s h1{
+    font-size: 60px;
+}
+.t-s h5{
+    font-size: 25px;
+}
+.box-s{
+    box-shadow: 5px 5px 20px 3px rgb(203, 223, 230);
+}
+.pricing-table{
+    margin-left: 30px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+}
+.pricing-table h1{
+    font-size: 50px;
+    
+}
+.pricing-table h5{
+    font-size: 30px;
+    padding-bottom:30px ;
+}
+.ricing-table-item{}
+.ricing-table-item ul{}
+.ricing-table-item ul li{
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+.ricing-table-item ul li span{
+    display: inline-block;
+    color: #6278df;
+    font-size: 40px;
+    width: 70px;
+    font-weight: 900;
+   
+}
+.author-info img{
+    width: 80px;
+    margin-right: 20px;
+}
+.author-info{
+    width: 210px;
+    margin: auto;
+}
+.user-details{
+    position: relative;
+    top: 10px;
+    text-align: left;
+
+}
+.team-section .card img{
+    width:140px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 40px;
+}
+.team-section{
+    margin-top: 250px;
+    margin-left: 70px;
+   
+}
+.min-bg-c{
+    background-image: linear-gradient(rgb(228, 245, 221), rgb(212, 251, 255));
+}
+.min-bg-d{
+    background-image: linear-gradient(rgb(255, 231, 245), rgb(212, 255, 241));
 }
